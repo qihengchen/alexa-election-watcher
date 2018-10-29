@@ -1,0 +1,40 @@
+{
+	"Virginia": {
+		"house": {
+			"1": {
+				"date": [2018, 10, 27],
+				"D": {
+					"candidate": "Dan Brown",
+					"voteShare": "55.88"
+				},
+				"R": {
+					"candidate": "Jennifer Bush",
+					"voteShare": "33.44"
+				}
+			},
+			"3": {
+				"date": [2018, 10, 27],
+				"D": {
+					"candidate": "Dan Brown",
+					"voteShare": "55.88"
+				},
+				"R": {
+					"candidate": "Jennifer Bush",
+					"voteShare": "33.44"
+				}
+			}
+		},
+		"senate": {
+			"date": [2018, 10, 28],
+			"D": {
+                "candidate": "John Smith",
+                "voteShare": "77.88"
+			},
+			"R": {
+				"candidate": "Kelly Johnson",
+                "voteShare": "22.33"
+			}
+		}
+	}
+
+}

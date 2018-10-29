@@ -1,0 +1,123 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "election watcher",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PollingIntent",
+                    "slots": [
+                        {
+                            "name": "state",
+                            "type": "AMAZON.US_STATE",
+                            "samples": [
+                                "for {state}",
+                                "{state}"
+                            ]
+                        },
+                        {
+                            "name": "election",
+                            "type": "ElectionType"
+                        }
+                    ],
+                    "samples": [
+                        "{election} live polls in {state}",
+                        "live polls in {state}",
+                        "election prediction in {state} ",
+                        "polls in {state} ",
+                        "polling results in {state} ",
+                        "polling in {state} "
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "ElectionType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "senate",
+                                "synonyms": [
+                                    "senator"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "house",
+                                "synonyms": [
+                                    "house representative"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "PollingIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "state",
+                            "type": "AMAZON.US_STATE",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.306462856549.932518237036"
+                            }
+                        },
+                        {
+                            "name": "election",
+                            "type": "ElectionType",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.306462856549.932518237036",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "election polls for what state?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "for what state?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "live polls for what state?"
+                    }
+                ]
+            }
+        ]
+    }
+}

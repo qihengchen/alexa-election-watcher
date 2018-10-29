@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.3d9159eb-139a-4f6d-9dee-325428688a3d",
+      "was_cloned": false,
+      "resources": {
+        "manifest": {
+          "eTag": "225af1ced3f5a55244a3b9faa6e31ac8"
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:656436810617:function:ElectionWatcher",
+            "awsRegion": "us-east-1",
+            "functionName": "arn:aws:lambda:us-east-1:656436810617:function:ElectionWatcher",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "f46119d5-f2c9-4f44-8a5f-22b06912ef70"
+          }
+        ],
+        "interactionModel": {
+          "en-US": {
+            "eTag": "bbf9ff5fe5cc74f8942b6a835779dd86"
+          }
+        }
+      },
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:656436810617:function:ElectionWatcher"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

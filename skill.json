@@ -1,0 +1,40 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Midterm election live polls.",
+          "examplePhrases": [
+            "Alexa, ask Election Watcher for polls in California.",
+            "",
+            ""
+          ],
+          "keywords": [],
+          "name": "Election Watcher",
+          "description": "U.S. midterm election 2018 -- house, senate and governor election polls for all states, using latest data from FiveThirtyEight.com."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Alexa, ask election watcher for live polls in California.",
+      "category": "NEWS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/us-east-1_ElectionWatcher",
+          "uri": "arn:aws:lambda:us-east-1:656436810617:function:ElectionWatcher"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
