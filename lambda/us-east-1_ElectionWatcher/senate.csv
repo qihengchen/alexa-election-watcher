@@ -1,0 +1,98 @@
+forecastdate,state,class,special,candidate,party,incumbent,model,win_probability,voteshare,p10_voteshare,p90_voteshare
+2018-10-29,AZ,1,false,Kyrsten Sinema,D,false,lite,0.6551,50.1,46.04,54.17
+2018-10-29,AZ,1,false,Martha McSally,R,false,lite,0.3449,47.74,43.69,51.77
+2018-10-29,AZ,1,false,Angela Green,G,false,lite,0,2.16,0.62,4.11
+2018-10-29,CA,1,false,Dianne Feinstein,D,true,lite,0.949,57.55,51.63,63.47
+2018-10-29,CA,1,false,Kevin de Leon,D,false,lite,0.051,42.45,36.53,48.37
+2018-10-29,CT,1,false,Christopher Murphy,D,true,lite,0.9703,56.75,51.66,61.86
+2018-10-29,CT,1,false,Matthew Corey,R,false,lite,0.0297,41.63,36.51,46.71
+2018-10-29,CT,1,false,Others,,false,lite,0,1.63,0.41,3.2
+2018-10-29,DE,1,false,Thomas R. Carper,D,true,lite,0.9937,59.04,53.98,64.13
+2018-10-29,DE,1,false,Rob Arlett,R,false,lite,0.0063,38.32,33.2,43.35
+2018-10-29,DE,1,false,Others,,false,lite,0,2.64,0.83,4.91
+2018-10-29,FL,1,false,Bill Nelson,D,true,lite,0.7313,51.65,48.17,55.2
+2018-10-29,FL,1,false,Rick Scott,R,false,lite,0.2687,48.35,44.8,51.83
+2018-10-29,HI,1,false,Mazie K. Hirono,D,true,lite,0.9997,75.29,67.29,83.25
+2018-10-29,HI,1,false,Ron Curtis,R,false,lite,0.0003,24.71,16.75,32.71
+2018-10-29,IN,1,false,Joe Donnelly,D,true,lite,0.6371,49.76,45.78,53.69
+2018-10-29,IN,1,false,Mike Braun,R,false,lite,0.3629,47.74,43.8,51.67
+2018-10-29,IN,1,false,Lucy M. Brenton,L,false,lite,0,2.5,0.76,4.66
+2018-10-29,MA,1,false,Elizabeth Warren,D,true,lite,0.9925,60.08,54.24,65.88
+2018-10-29,MA,1,false,Geoff Diehl,R,false,lite,0.0075,37.41,31.6,43.22
+2018-10-29,MA,1,false,V. A. Shiva Ayyadurai,I,false,lite,0,2.51,0.77,4.68
+2018-10-29,MD,1,false,Benjamin L. Cardin,D,true,lite,0.999,63.44,57.53,69.26
+2018-10-29,MD,1,false,Tony Campbell,R,false,lite,0.001,31.51,25.6,37.37
+2018-10-29,MD,1,false,Others,,false,lite,0,5.05,2.06,8.58
+2018-10-29,ME,1,false,Angus S. King Jr.,I,true,lite,0.9928,57.21,50.63,63.75
+2018-10-29,ME,1,false,Eric L. Brakey,R,false,lite,0.0071,34.31,28.56,39.96
+2018-10-29,ME,1,false,Zak Ringelstein,D,false,lite,0.0001,8.48,4.28,13.19
+2018-10-29,MI,1,false,Debbie Stabenow,D,true,lite,0.9766,55.1,51.05,59.09
+2018-10-29,MI,1,false,John James,R,false,lite,0.0234,42.74,38.76,46.75
+2018-10-29,MI,1,false,Others,,false,lite,0,2.15,0.61,4.13
+2018-10-29,MN,1,false,Amy Klobuchar,D,true,lite,0.9965,58.34,53.84,62.84
+2018-10-29,MN,1,false,Jim Newberger,R,false,lite,0.0035,38.82,34.3,43.26
+2018-10-29,MN,1,false,Others,,false,lite,0,2.85,0.92,5.25
+2018-10-29,MN,2,true,Tina Smith,D,false,lite,0.87,52.11,47.68,56.49
+2018-10-29,MN,2,true,Karin Housley,R,false,lite,0.13,44.74,40.26,49.14
+2018-10-29,MN,2,true,Others,,false,lite,0,3.15,1.05,5.73
+2018-10-29,MO,1,false,Claire McCaskill,D,true,lite,0.5101,48.71,44.65,52.81
+2018-10-29,MO,1,false,Josh Hawley,R,false,lite,0.4899,48.6,44.48,52.62
+2018-10-29,MO,1,false,Others,,false,lite,0,2.69,0.84,5.02
+2018-10-29,MS,1,false,Roger F. Wicker,R,true,lite,0.9921,60.51,54.58,66.41
+2018-10-29,MS,1,false,David Baria,D,false,lite,0.0079,37.15,31.25,43.06
+2018-10-29,MS,1,false,Others,,false,lite,0,2.34,0.7,4.42
+2018-10-29,MS,2,true,Cindy Hyde-Smith,R,false,lite,0.826,41.42,35.06,48.07
+2018-10-29,MS,2,true,Mike Espy,D,false,lite,0.1696,37.11,29.68,44.69
+2018-10-29,MS,2,true,Chris McDaniel,R,false,lite,0.0043,18.52,12.85,24.1
+2018-10-29,MS,2,true,Tobey Bartee,D,false,lite,0,2.95,0.96,5.38
+2018-10-29,MT,1,false,Jon Tester,D,true,lite,0.8186,51.72,47.22,56.22
+2018-10-29,MT,1,false,Matt Rosendale,R,false,lite,0.1814,45.61,41.08,50.08
+2018-10-29,MT,1,false,Rick Breckenridge,L,false,lite,0,2.67,0.84,4.97
+2018-10-29,ND,1,false,Kevin Cramer,R,false,lite,0.9099,55.47,50.25,60.65
+2018-10-29,ND,1,false,Heidi Heitkamp,D,true,lite,0.0901,44.53,39.35,49.75
+2018-10-29,NE,1,false,Deb Fischer,R,true,lite,0.9293,54.83,48.86,60.84
+2018-10-29,NE,1,false,Jane Raybould,D,false,lite,0.0706,41.48,35.46,47.44
+2018-10-29,NE,1,false,Jim Schultz,L,false,lite,0,3.69,1.34,6.55
+2018-10-29,NJ,1,false,Robert Menendez,D,true,lite,0.8551,52.11,47.4,56.8
+2018-10-29,NJ,1,false,Bob Hugin,R,false,lite,0.1449,44.78,40.05,49.44
+2018-10-29,NJ,1,false,Others,,false,lite,0,3.11,1.04,5.65
+2018-10-29,NM,1,false,Martin Heinrich,D,true,lite,0.989,49.04,43.42,54.62
+2018-10-29,NM,1,false,Mick Rich,R,false,lite,0.0089,31.24,25.6,36.82
+2018-10-29,NM,1,false,Gary Johnson,L,false,lite,0.0021,19.72,13.68,26.08
+2018-10-29,NV,1,false,Dean Heller,R,true,lite,0.6169,49.62,45.41,53.77
+2018-10-29,NV,1,false,Jacky Rosen,D,false,lite,0.3831,47.78,43.6,51.96
+2018-10-29,NV,1,false,Others,,false,lite,0,2.6,0.81,4.84
+2018-10-29,NY,1,false,Kirsten E. Gillibrand,D,true,lite,0.9991,63.21,58.39,67.98
+2018-10-29,NY,1,false,Chele Farley,R,false,lite,0.0009,36.79,32.02,41.61
+2018-10-29,OH,1,false,Sherrod Brown,D,true,lite,0.9816,56.78,52.67,60.85
+2018-10-29,OH,1,false,Jim Renacci,R,false,lite,0.0184,43.22,39.15,47.33
+2018-10-29,PA,1,false,Robert P. Casey Jr.,D,true,lite,0.9879,56.83,52.51,61.2
+2018-10-29,PA,1,false,Lou Barletta,R,false,lite,0.0121,41.2,36.8,45.5
+2018-10-29,PA,1,false,Others,,false,lite,0,1.97,0.54,3.81
+2018-10-29,RI,1,false,Sheldon Whitehouse,D,true,lite,0.9956,61.74,56.5,67.02
+2018-10-29,RI,1,false,Bob Flanders,R,false,lite,0.0044,38.26,32.98,43.5
+2018-10-29,TN,1,false,Marsha Blackburn,R,false,lite,0.7193,50.16,45.92,54.32
+2018-10-29,TN,1,false,Phil Bredesen,D,false,lite,0.2807,46.57,42.37,50.76
+2018-10-29,TN,1,false,Others,,false,lite,0,3.27,1.1,5.89
+2018-10-29,TX,1,false,Ted Cruz,R,true,lite,0.8135,51.97,47.89,56.07
+2018-10-29,TX,1,false,Beto O'Rourke,D,false,lite,0.1865,46.46,42.38,50.52
+2018-10-29,TX,1,false,Neal M. Dikeman,L,false,lite,0,1.57,0.39,3.1
+2018-10-29,UT,1,false,Mitt Romney,R,false,lite,0.9909,58.01,50.43,65.47
+2018-10-29,UT,1,false,Jenny Wilson,D,false,lite,0.0091,30.41,22.9,37.9
+2018-10-29,UT,1,false,Others,,false,lite,0,11.59,6.57,17.09
+2018-10-29,VA,1,false,Tim Kaine,D,true,lite,0.9794,56.38,51.75,60.98
+2018-10-29,VA,1,false,Corey Stewart,R,false,lite,0.0206,41.59,36.95,46.19
+2018-10-29,VA,1,false,Matt Waters,L,false,lite,0,2.03,0.57,3.9
+2018-10-29,VT,1,false,Bernard Sanders,I,true,lite,0.9997,67.47,60.73,74.29
+2018-10-29,VT,1,false,Lawrence Zupan,R,false,lite,0.0003,25.31,18.48,31.99
+2018-10-29,VT,1,false,Others,,false,lite,0,7.22,3.38,11.62
+2018-10-29,WA,1,false,Maria Cantwell,D,true,lite,0.9734,58.48,53.03,64.01
+2018-10-29,WA,1,false,Susan Hutchison,R,false,lite,0.0266,41.52,35.99,46.97
+2018-10-29,WI,1,false,Tammy Baldwin,D,true,lite,0.9799,56.53,52.54,60.54
+2018-10-29,WI,1,false,Leah Vukmir,R,false,lite,0.0201,43.47,39.46,47.46
+2018-10-29,WV,1,false,Joe Manchin III,D,true,lite,0.8905,53.21,48.35,58
+2018-10-29,WV,1,false,Patrick Morrisey,R,false,lite,0.1094,44.24,39.4,49.02
+2018-10-29,WV,1,false,Rusty Hollen,L,false,lite,0,2.56,0.79,4.76
+2018-10-29,WY,1,false,John Barrasso,R,true,lite,0.9982,67.94,59.84,76.08
+2018-10-29,WY,1,false,Gary Trauner,D,false,lite,0.0018,26.86,18.69,34.95
+2018-10-29,WY,1,false,Joseph Porambo,L,false,lite,0,5.2,2.16,8.77

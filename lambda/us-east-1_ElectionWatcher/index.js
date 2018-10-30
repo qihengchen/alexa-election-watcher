@@ -4,7 +4,7 @@ By Qiheng Chen. 2018.
 
 const alexa = require('ask-sdk-core');
 const format = require('string-format');
-const data = require('./test-data'); //read from ./data.json
+const data = require('./senate'); //read from ./data.json
 
 // ========== Constants ========== //
 const WELCOME_MESSAGE = 'Check house and senate election polls.';
@@ -13,7 +13,6 @@ const ERR_MESSAGE = 'Sorry didn\'t understand what you said. Let\'s try again.';
 const HELP_MESSAGE = 'I read data from fivethirtyeight.com. Ask me to check live polls for your state.';
 
 // ========== Handlers, Custom Intents ========== //
-
 const PollingIntentHandler = {
 	    canHandle(handlerInput) {
         const request = handlerInput.requestEnvelope.request;
@@ -33,7 +32,7 @@ const PollingIntentHandler = {
         console.log('State: ' + JSON.stringify(state));
 
         if (Object.keys(allStates).includes(state)) { //.toLowerCase())) {
-            let speech = prepareSpeech(state);
+            let speech = prepareSpeech(allStates[state]);
         	return handlerInput.responseBuilder.speak(speech).getResponse();
 
         } else {
@@ -51,7 +50,7 @@ function prepareSpeech(state) {
     if (data[state].senate) {
         (function() {
             let election = data[state].senate;
-            if (election.D && election.R) {
+            if (election.D.candidate && election.R.candidate) {
                 if (election.D.voteShare > election.R.voteShare) {
                     speech += format('Democrat {} is leading Republican {} in the senate race, with vote shares {} to {}. ', election.D.candidate,
                             election.R.candidate, election.D.voteShare, election.R.voteShare);
@@ -59,10 +58,10 @@ function prepareSpeech(state) {
                     speech += format('Republican {} is leading Democrat {} in the senate race, with vote shares {} to {}. ', election.R.candidate,
                             election.D.candidate, election.R.voteShare, election.D.voteShare);
                 }
-            } else if (election.D) {
-                speech += format('Democrat {} is leading in the senate race without Republican rival. ', election.D.candidate);
-            } else if (election.R) {
-                speech += format('Republican {} is leading in the senate race without Democrat rival. ', election.R.candidate);
+            } else if (election.D.candidate) {
+                speech += format('Democrat {} is leading in the senate race with {} vote share without Republican rival. ', election.D.candidate, election.D.voteShare);
+            } else if (election.R.candidate) {
+                speech += format('Republican {} is leading in the senate race with {} voate share without Democrat rival. ', election.R.candidate, election.R.voteShare);
             } else {
                 speech += format('No candidate from the two major parties is in the senate race. ');
             }
@@ -71,6 +70,7 @@ function prepareSpeech(state) {
         speech += 'No senate election found. ';
     }
 
+    /*
     if (data[state].house) {
         (function() {
             let houseElections = data[state].house;
@@ -97,7 +97,7 @@ function prepareSpeech(state) {
         })();
     } else {
         speech += "No house election found. ";
-    }
+    }*/
 
     return speech;
 }
@@ -167,7 +167,6 @@ const allStates = {
 
 
 // ========== Handlers, Built-in Intents ========== //
-
 const LaunchRequestHandler = {
     canHandle(handlerInput) {
         return handlerInput.requestEnvelope.request.type === 'LaunchRequest';
@@ -237,7 +236,6 @@ const ExitHandler = {
 };
 
 // ========== Lambda Handler ========== //
-
 const skillBuilder = alexa.SkillBuilders.custom();
 
 exports.handler = skillBuilder.addRequestHandlers(
